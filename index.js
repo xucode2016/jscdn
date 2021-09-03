@@ -1,3 +1,4 @@
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+let scriptNode = document.createElement("script")
+scriptNode.setAttribute("src", 'https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js')
 $(".header").remove();
 $(".content").remove();
