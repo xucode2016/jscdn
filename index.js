@@ -1,5 +1,5 @@
 let scriptNode = document.createElement("script")
 scriptNode.setAttribute("src", 'https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js')
 document.querySelector("head").appendChild(scriptNode)
-$(".header").remove();
-$(".content").remove();
+$("#header").remove();
+$("#content").remove();
